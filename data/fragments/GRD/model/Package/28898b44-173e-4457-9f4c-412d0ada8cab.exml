@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Organization meta-model" version="3">
+  <DEPS>
+    <ID name="Organization meta-model" mc="Package" uid="28898b44-173e-4457-9f4c-412d0ada8cab"/>
+    <COMPID name="Criteria" mc="Class" uid="ccc57cf0-245d-4fce-a8bc-074f3384a112"/>
+    <COMPID name="Group" mc="Class" uid="d17eab03-f261-4615-8e18-9e63c69b4e39"/>
+    <COMPID name="GroupView" mc="Class" uid="ff5e14a8-1a9e-4915-8201-0c0f29cae3db"/>
+    <COMPID name="Role" mc="Class" uid="53e6d4c3-cfc7-4a20-8810-8cd7efdb473c"/>
+    <COMPID name="RolePosition" mc="Class" uid="ede372d8-9739-46a4-9c14-6d567bb970e4"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Organization meta-model" mc="Package" uid="28898b44-173e-4457-9f4c-412d0ada8cab"/>
+    <PID name="grd" mc="Package" uid="d2c4f66b-ce46-4e1f-aa8a-6ea76dbc3b57"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Organization meta-model]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="RolePosition" mc="Class" uid="ede372d8-9739-46a4-9c14-6d567bb970e4"/>
+        <COMPID name="Criteria" mc="Class" uid="ccc57cf0-245d-4fce-a8bc-074f3384a112"/>
+        <COMPID name="Role" mc="Class" uid="53e6d4c3-cfc7-4a20-8810-8cd7efdb473c"/>
+        <COMPID name="GroupView" mc="Class" uid="ff5e14a8-1a9e-4915-8201-0c0f29cae3db"/>
+        <COMPID name="Group" mc="Class" uid="d17eab03-f261-4615-8e18-9e63c69b4e39"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

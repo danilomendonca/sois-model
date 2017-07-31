@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="GRD" version="3">
+  <DEPS>
+    <ID name="GRD" mc="Project" uid="04f1db3b-efc0-4643-97f3-95efc611f3f4"/>
+    <COMPID name="GRD" mc="DiagramSet" uid="29b9d984-febd-4074-8778-69dbd05967a9"/>
+    <COMPID name="grd" mc="Package" uid="d2c4f66b-ce46-4e1f-aa8a-6ea76dbc3b57"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="GRD" mc="Project" uid="04f1db3b-efc0-4643-97f3-95efc611f3f4"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[GRD]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DiagramRoot">
+        <COMPID name="GRD" mc="DiagramSet" uid="29b9d984-febd-4074-8778-69dbd05967a9"/>
+      </COMP>
+      <COMP relation="Model">
+        <COMPID name="grd" mc="Package" uid="d2c4f66b-ce46-4e1f-aa8a-6ea76dbc3b57"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

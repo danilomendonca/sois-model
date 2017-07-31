@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Management meta-model" version="3">
+  <DEPS>
+    <ID name="Management meta-model" mc="Package" uid="7261be05-cbff-43ef-91f7-e5288422a3f5"/>
+    <COMPID name="ManagementRole" mc="Class" uid="c3c8984e-0203-44ab-a7fc-8af3ad9ec3b5"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Management meta-model" mc="Package" uid="7261be05-cbff-43ef-91f7-e5288422a3f5"/>
+    <PID name="grd" mc="Package" uid="d2c4f66b-ce46-4e1f-aa8a-6ea76dbc3b57"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Management meta-model]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ManagementRole" mc="Class" uid="c3c8984e-0203-44ab-a7fc-8af3ad9ec3b5"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

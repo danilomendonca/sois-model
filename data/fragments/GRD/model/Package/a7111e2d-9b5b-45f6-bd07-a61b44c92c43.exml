@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Application meta-model" version="3">
+  <DEPS>
+    <ID name="Application meta-model" mc="Package" uid="a7111e2d-9b5b-45f6-bd07-a61b44c92c43"/>
+    <COMPID name="ActiveDevices" mc="Class" uid="190060f1-6363-4ab7-93fa-05ec143828c2"/>
+    <COMPID name="Application" mc="Class" uid="337612f1-77c8-4938-b23c-bffdf3b8f8cd"/>
+    <COMPID name="ApplicationRole" mc="Class" uid="b541f18b-ba9e-4b77-b8ea-4e1c811a0b1c"/>
+    <COMPID name="Device" mc="Class" uid="2b37c218-87a8-4456-ab42-9fc9fbe7f841"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Application meta-model" mc="Package" uid="a7111e2d-9b5b-45f6-bd07-a61b44c92c43"/>
+    <PID name="grd" mc="Package" uid="d2c4f66b-ce46-4e1f-aa8a-6ea76dbc3b57"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Application meta-model]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Device" mc="Class" uid="2b37c218-87a8-4456-ab42-9fc9fbe7f841"/>
+        <COMPID name="Application" mc="Class" uid="337612f1-77c8-4938-b23c-bffdf3b8f8cd"/>
+        <COMPID name="ApplicationRole" mc="Class" uid="b541f18b-ba9e-4b77-b8ea-4e1c811a0b1c"/>
+        <COMPID name="ActiveDevices" mc="Class" uid="190060f1-6363-4ab7-93fa-05ec143828c2"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

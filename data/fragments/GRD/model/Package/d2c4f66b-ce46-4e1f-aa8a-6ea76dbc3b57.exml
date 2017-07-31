@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="grd" version="3">
+  <DEPS>
+    <ID name="grd" mc="Package" uid="d2c4f66b-ce46-4e1f-aa8a-6ea76dbc3b57"/>
+    <COMPID name="Activity" mc="Activity" uid="8ada20e8-ac1a-4144-b1bd-9c0161c7589e"/>
+    <COMPID name="Application meta-model" mc="Package" uid="a7111e2d-9b5b-45f6-bd07-a61b44c92c43"/>
+    <COMPID name="Management meta-model" mc="Package" uid="7261be05-cbff-43ef-91f7-e5288422a3f5"/>
+    <COMPID name="Organization meta-model" mc="Package" uid="28898b44-173e-4457-9f4c-412d0ada8cab"/>
+    <COMPID name="State Machine" mc="StateMachine" uid="a43b507e-6cce-44f3-b6d6-68df6298d3cf"/>
+    <COMPID name="organization_meta_model" mc="ClassDiagram" uid="fedd5fc5-8eed-4e2e-8784-af97994fb4cb"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="grd" mc="Package" uid="d2c4f66b-ce46-4e1f-aa8a-6ea76dbc3b57"/>
+    <PID name="GRD" mc="Project" uid="04f1db3b-efc0-4643-97f3-95efc611f3f4"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[grd]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="State Machine" mc="StateMachine" uid="a43b507e-6cce-44f3-b6d6-68df6298d3cf"/>
+        <COMPID name="Activity" mc="Activity" uid="8ada20e8-ac1a-4144-b1bd-9c0161c7589e"/>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="Organization meta-model" mc="Package" uid="28898b44-173e-4457-9f4c-412d0ada8cab"/>
+        <COMPID name="Application meta-model" mc="Package" uid="a7111e2d-9b5b-45f6-bd07-a61b44c92c43"/>
+        <COMPID name="Management meta-model" mc="Package" uid="7261be05-cbff-43ef-91f7-e5288422a3f5"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="organization_meta_model" mc="ClassDiagram" uid="fedd5fc5-8eed-4e2e-8784-af97994fb4cb"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
